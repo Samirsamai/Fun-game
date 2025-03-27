@@ -1,0 +1,63 @@
+# Fun Game with Friends
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun Game with Friends</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        .game-container {
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="game-container">
+        <h1>Welcome to the Fun Game!</h1>
+        <p>Gather your friends and get ready for an exciting challenge!</p>
+        <button onclick="startGame()">Start Game</button>
+        <button onclick="showInstructions()">Instructions</button>
+    </div>
+
+    <script>
+        function startGame() {
+            alert("The game has started! Have fun!");
+        }
+
+        function showInstructions() {
+            alert("Instructions: Work together to complete the challenges and score points!");
+        }
+    </script>
+
+</body>
+</html>
